@@ -51,3 +51,8 @@ htmlcov/
 
 # FastAPI generated OpenAPI docs
 docs/_build/
+
+
+# config files
+
+config.py
