@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+.venv/
+
+# Environment variables file
+.env
+
+# PostgreSQL database files
+*.pgdata
+*.pgpass
+pg_dump*
+
+# Logs
+*.log
+*.out
+*.err
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# SQLite database (if used temporarily for testing)
+*.sqlite3
+
+# Cache and state files
+*.mypy_cache/
+*.pytest_cache/
+*.cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test output
+*.coverage
+coverage.xml
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# FastAPI generated OpenAPI docs
+docs/_build/
