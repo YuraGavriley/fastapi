@@ -1,6 +1,5 @@
-from sqlmodel import SQLModel, create_engine, Session
+from sqlmodel import SQLModel, create_engine
 from .config import DATABASE_URL
-from .models import User
 
 engine = create_engine(DATABASE_URL)
 
